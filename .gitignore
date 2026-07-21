@@ -1,0 +1,68 @@
+# Vivado and tool generated state
+.Xil/
+*.jou
+*.log
+*.str
+*.backup.*
+*.pb
+*.rpt
+*.rpx
+*.dcp
+*.bit
+*.ltx
+*.bin
+*.mcs
+*.mmi
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.srcs/
+
+# Local implementation/build products
+imp/bit/
+imp/bp/
+imp/prj/
+imp/tmp/
+imp/.cache*/
+ip/.cache*/
+ip/**/*
+!ip/**/
+!ip/**/*.xci
+!ip/**/*.coe
+!ip/**/*.mem
+ip/.cache*/
+ip/.cache*/**
+
+# Simulation generated products
+**/work/
+**/work_*/
+**/@_opt/
+**/_opt/
+**/*.qdb
+**/*.qpg
+**/*.qtl
+**/*.vcd
+**/*.wlf
+**/*.ps
+**/transcript*
+**/vsim_stacktrace.vstf
+**/vish_stacktrace.vstf
+**/wlf*
+modelsim.ini
+
+# Local ILA exports
+iladata*.csv
+
+# Editor / OS noise
+.vscode/
+__pycache__/
+*.pyc
+Thumbs.db
+Desktop.ini
+*.swp
+*.tmp
+
+# Local reference documents not suitable for public repository upload
+JEDEC+LPDDR5LPDDR5X+*.pdf
